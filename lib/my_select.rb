@@ -3,8 +3,8 @@ def my_select(arr)
   selected = []
   if arr > 0
     while i < arr.length
-      
+      selected << yield(arr[i])
     end
-    end
+    selected
   end
 end
