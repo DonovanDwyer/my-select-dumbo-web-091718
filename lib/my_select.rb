@@ -4,4 +4,4 @@ def my_select(arr)
   puts "What about #{yield(arr[1])}?"
 end
 
-my_select([1,2,3,4]) {|y| puts y}
+my_select([1,2,3,4]) {|y| y}
