@@ -1,5 +1,5 @@
 def my_select(arr)
-  puts yield(arr[0]).even?
+  if block_given?
+    
+  end
 end
-
-my_select([1,2,3,4]) {|y| y}
