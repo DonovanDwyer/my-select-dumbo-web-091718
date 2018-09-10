@@ -3,6 +3,6 @@ def my_select(arr)
   selected = []
   if arr > 0
     while i < arr.length
-    
+  end
   end
 end
