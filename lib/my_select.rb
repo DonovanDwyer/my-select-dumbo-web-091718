@@ -4,7 +4,7 @@ def my_select(arr)
     selection = []
     while i < arr.length
       if yield(arr[i]) == true
-        selection << arr[i]
+        selection << yield(arr[i])
       end
     end
     selection
