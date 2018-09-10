@@ -6,4 +6,5 @@ def my_select(arr)
         selected << yield(arr[i])
       end
       selected
+  end
 end
