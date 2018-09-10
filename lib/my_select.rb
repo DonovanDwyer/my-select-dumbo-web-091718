@@ -3,7 +3,7 @@ def my_select(arr)
     i = 0
     s = []
     while i < arr.length
-      s << yield(arr[0])
+      s << arr[i] if yield(arr[i])
     i += 1
     end
     s
