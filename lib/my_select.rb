@@ -1,3 +1,7 @@
 def my_select(arr)
-  puts "blow it out your ass"
+  i = 0
+  selected = []
+  while i < arr.length
+    
+  end
 end
