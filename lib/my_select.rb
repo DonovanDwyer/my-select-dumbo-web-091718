@@ -1,5 +1,5 @@
 def my_select(arr)
-  if block_given?
+  if arr != []
     i = 0
     selected = []
       while i < arr.length
